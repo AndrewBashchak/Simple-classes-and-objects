@@ -18,14 +18,11 @@ public class Book {
     }
 
     boolean isGenre(String checkGenre) {
-        if (genre.equals(checkGenre)) {
-            return true;
-        } else {
-            return false;
-        }
+        return (genre.equals(checkGenre);
     }
 
     public String toString() {
         return "Title: " + title + ", Author: " + author + ", Year: " + year + ", Pages: " + pages + ", Genre: " + genre + "\nModern: " + isModern();
     }
 }
+
